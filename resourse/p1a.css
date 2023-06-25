@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+div#container {
+	width: 800px;
+	margin: 100px auto;
+}
+#selStyle {
+	margin-bottom: 10px;
+}
+table.tb {
+	width: 100%;
+	border-spacing: 0;
+}
+table.tb th {
+	padding: 4px;
+	text-align: left;
+}
+table.tb td {
+	padding: 4px;
+	border-top: 2px solid #FFF;
+}
+table.tb tr#firstline {
+	background-color: #687291;
+	color: #FFF;
+}
+table.tb tr:nth-child(even) {
+	background-color: #DFE1E7;
+}
+table.tb tr:nth-child(odd) {
+	background-color: #EEEFF2;
+}
+table.tb tr#lastline{
+	display: none;
+}
+td.cent {
+	text-align: center;
+}

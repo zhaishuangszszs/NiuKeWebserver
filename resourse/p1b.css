@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+div#container {
+	width: 800px;
+	margin: 100px auto;
+}
+#selStyle {
+	margin-bottom: 10px;
+}
+table.tb {
+	width: 100%;
+	border-spacing: 0;
+	border: 10px solid #D0D0FF;
+	padding: 20px;
+}
+table.tb th {
+	padding: 2px;
+	text-align: left;
+}
+table.tb td {
+	padding: 2px;
+}
+table.tb tr#lastline td{
+	border-top: 2px solid black;
+	font-weight: bold;
+}
+td.cent {
+	text-align: center;
+}
